@@ -20,6 +20,10 @@
 .ground4{
     
 } */
+body{
+    width: 375pt;
+    height: 1152pt;
+}
 
 .background{
     width:375pt;height:200pt;
@@ -202,6 +206,7 @@
 .item4{
     height:125pt;
     font:17pt bold left;
+    margin-top: 30pt;
 }
 .sub{
     width:339pt;
@@ -238,5 +243,4 @@
     background-repeat:no-repeat;
     background-size: 100%;
 }
-
 

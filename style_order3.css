@@ -1,0 +1,173 @@
+body{
+    width: 375pt;
+    height: 984pt;
+}
+.background{
+    width:375pt;
+    height:315pt;
+    background-image:;
+    
+    flex-direction: column;
+    background-color:#FFFFFF
+
+}
+
+.item1{
+    height: 69pt;
+    background-color: #FFFFFF;
+    background-repeat:no-repeat;
+    background-position: top-center;
+    background-size: cover;
+    background width: 375pt;
+    background height: 69pt;
+    border-bottom: 1px #00000026 solid;
+    box-shadow:2pt 7pt 5pt -5pt #00000029;
+}
+#item1_1{
+    width: 17pt;
+    height: 17pt;
+    margin-top: 24pt;
+    margin-left: 20pt;
+}
+#item1_2{
+    font-size: 16pt;
+    font-family: 나눔고딕;
+    text-align: center;
+    font-weight: 1000;
+    margin-left: 110pt;
+
+}
+.item2{
+    height: 84pt;
+    font-weight: 375pt;
+    border-bottom: 1px #00000026 solid;
+}
+#item2_1{
+    font-size: 15pt;
+    font-family: 나눔고딕;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 38pt;
+    margin-left: 25pt;
+}
+#item2_2{
+    width: 108pt;
+    height: 29pt;
+    font-size:12pt;
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+    color: #FF6B6B;
+    border-radius: 15pt;
+    background: #FFFFFF;
+    border: solid 1pt #FF6B6B;
+    margin-left: 155pt;
+    margin-top: 32pt;
+
+}
+.item3{
+    height: 45pt;
+    width: 375pt;
+
+}
+#item3_1{
+    font-size: 13pt;
+    font-family: 나눔고딕;
+    color: #FF6B6B;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 30pt;
+    
+}
+.item4{
+border: 0.2pt solid #989898;
+background-color: #FFFFFF;
+border-radius: 9pt;
+box-shadow: 1pt 1pt 2pt #00000029;
+padding:10pt;
+width: 334pt;
+height: 161pt;
+text-align: ;
+margin-top: 15pt;
+margin-left: 10pt;
+}
+.item4_1{
+    font-size: 13pt;
+    font-family: 나눔고딕;
+    color:black;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20pt;
+}
+.item4_2{
+    font-size: 13pt;
+    font-family: 나눔고딕;
+    color:black;
+    text-align: ;
+    font-weight: regular;
+    margin-top:20pt;
+}
+#item4_3{
+    width: 289pt;
+    height: 29pt;
+    font-size:13pt;
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+    color: #FF6B6B;
+    border-radius: 5pt;
+    background: #FFFFFF;
+    border: solid 1pt #FF6B6B;
+    margin-left: 23pt;
+    margin-top: 16pt;
+
+}
+.item5{
+    height: 38pt;
+    width: 375pt;
+
+}
+.item5_1{
+    font-size: 13pt;
+    font-family: 나눔고딕;
+    color: #6B6B6B;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 36pt;
+    margin-top: 20pt;
+}
+.item6{
+    border: 0.2pt solid #989898;
+    background-color: #FFFFFF;
+    border-radius: 9pt;
+    box-shadow: 1pt 1pt 2pt #00000029;
+    padding:10pt;
+    width: 334pt;
+    height: 78pt;
+    text-align: ;
+    margin-top: 3pt;
+    margin-left: 10pt;
+    
+    }
+.item6_1{
+    font-size: 10pt;
+    font-family: 나눔고딕;
+    color: #000000;
+    text-align: left;
+    font-weight: regular;
+    margin-left: 85pt;
+    margin-top: ;
+
+    }
+.item6_2{
+    width: 150pt;
+
+    }
+ .item6_3{
+    font-size: 10pt;
+    font-family: 나눔고딕;
+    color: #000000;
+    text-align: left;
+    font-weight: regular;
+    margin-left: 15pt;
+    margin-top: ;
+
+    }

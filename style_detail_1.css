@@ -1,0 +1,306 @@
+body{
+    widows: 375pt;
+}
+.background{
+
+
+}
+
+
+
+
+
+.container {
+    background:
+    dispaly:flex; 
+    flex-direction: column;
+    width:375pt;
+    height:812pt;
+    align-content: flex-start;
+}
+
+.item{
+    flex:grow;
+
+
+}
+.item1{
+    background-color:#ffffff 
+    background-image:
+    background-size: cover;
+    height:20pt;
+    text-align:center;
+    font-size:16pt;
+    margin-top:5pt;
+    
+    
+}
+img.detail_1{
+    height:11.5pt;
+    width: 10.13pt;
+    top: 5pt;
+    left: 20pt;
+    position: relative;
+    
+
+}
+.kind{
+    display: flex;
+    flex-direction: row;
+    font-size: 13pt;
+    margin-top: 20pt;
+    width: 375pt;
+    text-align: center;
+}
+.img.nemo{
+    height:4pt;
+    margin-bottom: 3pt;
+}
+.kind1{
+    flex: 1;
+
+}
+.kind2{
+    flex: 1;
+}
+.kind3{
+    flex: 1;
+}
+.kind4{
+    flex: 1;
+}
+.kind5{
+    flex: 1;
+}
+#item1_1{
+    margin-left: 170pt;
+}
+.item2{
+    background-color:#ffffff 
+    background-image:
+    background-size: ;
+    height:720pt;
+    text-align:
+    font-size:15pt;
+    display:flex;
+}
+.store{
+        display: flex;
+        flex-direction: column;
+        font-size: 15pt;
+        margin-left:27pt;
+        margin-top:6pt;
+        /* vertical-align: top; */
+        text-align: 
+        width:10%;
+        float: left;
+        width: 97pt;
+        background: #ffffff;
+            /* margin-right: 50px; */
+}
+
+.title{
+    font-size:15pt;
+}
+.store00{
+    display: flex;
+    
+    flex-direction: column;
+    font-size: 11pt;
+    float: left;
+    width: 280pt;
+    height:auto;
+
+}
+.store1{
+    flex:  auto;
+    margin-top: 90pt;
+    border-bottom: ;
+    
+    
+
+}
+.store2{
+    flex:  auto;
+}
+.store3{
+    flex:  auto;
+}
+.store4{
+    flex:  auto;
+}
+.store5{
+    flex:  auto;
+    margin-top: 2pt;
+}
+.store6{
+    flex: auto;
+    margin-top: 2pt;
+}
+.store7{
+    flex: auto;
+}
+.store8{
+    flex:  auto;
+}
+.img.store_1{
+    
+}
+.img.store_2{
+    
+}
+.img.store_3{
+    
+}
+.img.store_4{
+    
+}
+.img.store_5{
+    
+}
+.img.store_6{
+    
+}
+.img.store_7{
+    
+}
+.img.store_8{
+    
+}
+.store01{
+    flex: auto;
+    margin-top: 90pt;
+
+}
+.store02{
+    flex: auto;
+}
+
+.store03{
+    flex: auto;
+}
+`
+.store04{
+    flex: auto;
+}
+.store05{
+    flex: auto;
+}
+.store06{
+    flex: auto;
+}
+.store07{
+    flex: auto;
+}
+.store08{
+    flex: auto;
+}
+.menu1{
+    margin-left: 20pt;
+}
+
+
+nav{position: fixed; 
+    left: 0; 
+    top: 0;
+    width: 375pt; 
+    background: #ffffff; 
+    box-shadow: -5pt 2pt 5pt #00000029;
+    rgba(o,o,o,.5);
+}
+nav div{
+    display: flex; 
+    width: 375pt;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+nav div a{
+    flex:1;
+    display: block;
+    text-align:center;
+    /* height:45pt; */
+    line-height: 30pt;
+    color: #636363;
+}
+nav div a.on{ 
+    color:black;
+    font-weight: 700;
+}
+nav div > span{
+    position: absolute;
+    left:75pt;
+    bottom:0pt;
+    width:40pt;
+    height:4pt;
+    background:#FF6B6B;
+    opacity:0;
+    transition: all .5s;
+}
+nav div a:nth-child(1).on ~ span {left:0; opacity:1;}
+nav div a:nth-child(2).on ~ span {left:50pt; opacity:1;}
+nav div a:nth-child(3).on ~ span {left:100pt; opacity:1;}
+nav div a:nth-child(4).on ~ span {left:150pt; opacity:1;}
+nav div a:nth-child(5).on ~ span {left:200pt; opacity:1;}
+
+/* nav {
+
+    left: 0px;
+    top: 0px;
+    width:100%;
+}
+
+nav div{
+   display: flex;
+   position: relative;
+   margin: 0 auto;
+   width: 375pt;
+}
+
+nav div a{
+    flex:1;
+    display: block;
+    text-align:center;
+    height:58pt;
+    line-height: 58pt;
+    color: #636363;
+}
+
+nav div a.on{
+    color: #000000;
+}
+
+nav div > span{
+    position: absolute;
+    left:75pt;
+    bottom:0;
+    width:40pt;
+    height:4pt;
+    background:#FF6B6B;
+    opacity:0;
+    transition: all .5s;
+}
+
+nav div a:nth-child(1).on ~ span{
+    left:75pt;
+    opacity:1;
+}
+
+nav div a:nth-child(2).on ~ span{
+    left:264pt;
+    opacity:1;
+}
+nav div a:nth-child(3).on ~ span{
+    left:75pt;
+    opacity:1;
+}
+
+nav div a:nth-child(4).on ~ span{
+    left:264pt;
+    opacity:1;
+}
+nav div a:nth-child(5).on ~ span{
+    left:264pt;
+    opacity:1;
+} */

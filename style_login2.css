@@ -78,7 +78,8 @@ button.button1 span{color:#FF6B6B; font-family: 나눔고딕,bold;}
     width: 293pt;
     height: 51pt;
     margin-top: 14pt;
-    border-radius:  ;
+    border-radius: 5pt;
+
 }
 .name{
     font-size: 20pt;

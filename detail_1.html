@@ -4,22 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_1.css">
+    <link rel="stylesheet" href="style_detail_1.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>한식페이지</title>
 </head>
 
 <body>
 
     <div class="container background">
-        <div class="item item1"><br> <img class="detail_1" src="image/detail_1.png" alt=""></IMg> <b>한식</b>
+
+        <nav>
+            <div class="item item1"><br> <img class="detail_1" src="image/detail_1.png" alt=""></IMg> <b
+                    id="item1_1">한식</b></div>
             <div class="kind">
-                <div class="menu kind1">한식 <br> <img class="nemo" src="image/nemo.png"> </div>
-                <div class="menu kind2">분식</div>
-                <div class="menu kind3">양식</div>
-                <div class="menu kind4">중식</div>
-                <div class="menu kind5">일식</div>
+                <div class="menu kind1"><a href="#a" class="on"> <span class="menu1"> 한식</span></a> </div>
+                <div class="menu kind2"><a href="#a"> <span class="menu1"> 분식</span></a></div>
+                <div class="menu kind3"><a href="#a"> <span class="menu1"> 양식</span></a></div>
+                <div class="menu kind4"><a href="#a"><span class="menu1"> 중식</span></a></div>
+                <div class="menu kind5"><a href="#a"> <span class="menu1"> 일식</span></a></div>
+                <span></span>
             </div>
-        </div>
+
+        </nav>
+        <!-- <script type="text/javascript">
+            $(document).ready(function () {
+                $('nav a').on('click', function () {
+                    $(this).addClass('on');
+                    $(this).siblings().removeAttr('class');
+                });
+            }); -->
+
+
+
+        <!-- </script> -->
+
+
+
 
         <div class="item item2">
             <div class="store">
@@ -83,10 +103,10 @@
                     <br>배달비 1,00원~3,000원
                 </div>
             </div>
-
-
         </div>
-        <!-- <div class="item item3">3</div>
+
+    </div>
+    <!-- <div class="item item3">3</div>
         <div class="item item4">4</div> -->
     </div>
 

@@ -23,6 +23,7 @@ body{
     background width: 375pt;
     background height: 69pt;
     border-bottom: 1px #00000026 solid;
+    box-shadow:2pt 7pt 5pt -5pt #00000029;
 }
 #back{
     width: 17pt;
