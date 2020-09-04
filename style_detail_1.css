@@ -227,6 +227,9 @@ nav div a{
 nav div a.on{ 
     color:black;
     font-weight: 700;
+    border-bottom: #FF6B6B 2pt solid;
+   
+    
 }
 nav div > span{
     position: absolute;
