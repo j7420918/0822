@@ -3,25 +3,187 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="map.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap" rel="stylesheet">
     <title>Kakao 지도 시작하기</title>
 </head>
 
 <body>
-    <div class="container">
-        <div id="map" class="map" />
-    </div>
-    <script type="text/javascript"
-        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2e4861cf241e753c7c60c90ba811a319"></script>
-    <script>
-        var container = document.getElementById('map');
-        var options = {
-            center: new kakao.maps.LatLng(33.450701, 126.570667),
-            level: 3
-        };
 
-        var map = new kakao.maps.Map(container, options);
-    </script>
+    <div class="package">
+
+
+
+
+
+        <div class="container">
+            <div id="map" class="map" />
+
+            <script type="text/javascript"
+                src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2e4861cf241e753c7c60c90ba811a319">
+                </script>
+
+
+            <script>
+                var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
+                    mapOption = {
+                        center: new kakao.maps.LatLng(35.8936753753173, 128.60955504475183), // 지도의 중심좌표
+                        level: 1 // 지도의 확대 레벨
+                    };
+
+                var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+                // 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다 
+                var positions = [
+                    {
+                        content: '<div>쥬씨 복현점</div>',
+                        latlng: new kakao.maps.LatLng(35.89354830746703, 128.6092866794105)
+                    },
+                    {
+                        content: '<div>청년다방 경북대점</div>',
+                        latlng: new kakao.maps.LatLng(35.89264885845113, 128.60714215454357)
+                    },
+                    {
+                        content: '<div>엽떡 경북대점</div>',
+                        latlng: new kakao.maps.LatLng(35.89428033771388, 128.61013764525038)
+                    },
+                    {
+                        content: '<div>그리다빵 경북대점</div>',
+                        latlng: new kakao.maps.LatLng(35.89406533431324, 128.60970691205117)
+                    },
+                    {
+                        content: '<div>싸움의 고수</div>',
+                        latlng: new kakao.maps.LatLng(35.89420795571923, 128.60982331650388)
+                    },
+                    {
+                        content: '<div>써브웨이 경대점</div>',
+                        latlng: new kakao.maps.LatLng(35.89305941363336, 128.6094567455977)
+                    }
+
+
+                ];
+
+                for (var i = 0; i < positions.length; i++) {
+                    // 마커를 생성합니다
+                    var marker = new kakao.maps.Marker({
+                        map: map, // 마커를 표시할 지도
+                        position: positions[i].latlng // 마커의 위치
+                    });
+
+                    // 마커에 표시할 인포윈도우를 생성합니다 
+                    var infowindow = new kakao.maps.InfoWindow({
+                        content: positions[i].content // 인포윈도우에 표시할 내용
+                    });
+
+                    // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
+                    // 이벤트 리스너로는 클로저를 만들어 등록합니다 
+                    // for문에서 클로저를 만들어 주지 않으면 마지막 마커에만 이벤트가 등록됩니다
+                    kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
+                    kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
+                }
+
+                // 인포윈도우를 표시하는 클로저를 만드는 함수입니다 
+                function makeOverListener(map, marker, infowindow) {
+                    return function () {
+                        infowindow.open(map, marker);
+                    };
+                }
+
+                // 인포윈도우를 닫는 클로저를 만드는 함수입니다 
+                function makeOutListener(infowindow) {
+                    return function () {
+                        infowindow.close();
+                    };
+                }
+
+            </script>
+
+        </div>
+        <div class="top">
+            <button type="button">
+                <img src="image/map_0.png" id="image0" alt="">
+            </button>
+
+
+            <div class="topbar">
+                <label for="radius1"></label>
+                <select name="반경" id="radius1" size="1">
+                    <option selected>반경:현위치</option>
+                    <option value="text/css">100m</option>
+                    <option value="text/css">300m</option>
+                    <option value="text/css">500m</option>
+                </select>
+            </div>
+
+            <div class="topbar1">
+                <label for="radius1"></label>
+                <select name="반경" id="radius1" size="1">
+                    <option selected>분류:전체</option>
+                    <option value="text/css">식당</option>
+                    <option value="text/css">카페</option>
+                </select>
+            </div>
+
+            <div class="topbar2">
+                <label for="radius1"></label>
+                <select name="반경" id="radius1" size="1">
+                    <option selected>수령방법</option>
+                    <option value="text/css">중간수령</option>
+                    <option value="text/css">개인수령</option>
+                </select>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="map_1">
+
+
+            <div class="markbox">
+
+                <div class="mark"><img id="imgmap1" src="image/map_1.png" alt="">
+
+                </div>
+                <div class="mark2">쥬씨 복현점 <img id="imgmap2" src="image/map_2.png" alt="">
+                    <button id="btnmap1">2 </button> <br>
+                    <img src="image/map_3.png" alt=""> <a id="mark2_1">07:58</a>
+
+
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="menubox">
+                <div class="menubox1">
+                    딸기바나나 2, 아메리카노(ICE) 1,<br>
+                    블루베리 2 <br>
+                </div>
+                <div id="menubox2">
+                    배달지:대학로 8길 27
+                </div>
+            </div>
+            <div class="orderbox">
+                <span id="orderbox0">참여하기</span>
+                <span id="orderbox1">4000원</span>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
 </body>
 
 </html>

@@ -46,7 +46,7 @@
 .title{
     font-size: 20pt;
     font-weight: bold;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
     margin-bottom: 26pt;
     margin-top:14pt;
     margin-left:138pt;
@@ -62,7 +62,7 @@
 
 .info{
     font-size: 11pt;
-    font-family: 나눔고딕; 
+    font-family: 'Nanum Gothic', sans-serif;
     margin-top:13pt;
     margin-bottom:9pt;
 
@@ -70,7 +70,7 @@
 
 .infoo{
     font-size: 11pt;
-    font-family: 나눔고딕; 
+    font-family: 'Nanum Gothic', sans-serif;
     margin-bottom:16pt;
 }
 
@@ -99,7 +99,7 @@
     border-bottom: 1px solid #00000029;
     font-size: 15pt;
     font-weight: bold;
-    font-family: 나눔고딕; 
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 /*.m-container .menu_item{
@@ -163,12 +163,12 @@ nav div a:nth-child(2).on ~ span{
     background-color: #EBE7E766;
     display: flex;
     font-size: 14pt;
-    font-family: 나눔고딕; 
+    font-family: 'Nanum Gothic', sans-serif; 
     
 }
 .item{
     font-size: 12pt;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
     margin-left:36pt;
     margin-top:15pt;
 }
@@ -185,7 +185,7 @@ nav div a:nth-child(2).on ~ span{
     margin-left:36pt;
     margin-top:16.5pt;
     font-size: 15pt;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
 }
 
@@ -194,7 +194,7 @@ nav div a:nth-child(2).on ~ span{
     margin-top:7pt;
     margin-right: 146pt;
     font-size: 12pt;
-    font-family: 나눔고딕; 
+    font-family: 'Nanum Gothic', sans-serif; 
     color: #585858;
 }
 
@@ -203,7 +203,7 @@ nav div a:nth-child(2).on ~ span{
     margin-top:11pt;
     margin-bottom: 16.5pt;
     font-size: 15pt;
-    font-family: 나눔고딕; 
+    font-family: 'Nanum Gothic', sans-serif; 
 }
 
 .product{

@@ -45,7 +45,7 @@ body{
     
 }
 div.name span{font: bold;}
-button.button1 span{color:#FF6B6B; font-family: 나눔고딕,bold;}
+button.button1 span{color:#FF6B6B; font-family: 'Nanum Gothic', sans-serif; font-weight: 700;}
 #login-form{
     width:293pt;
     margin:

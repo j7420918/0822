@@ -1,11 +1,211 @@
+body{
+  width: 375pt;
+  height: 812pt;
+}
+
 .container {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 375pt;
+  height: 812pt;
+  position: absolute;
+  z-index: 1;
 }
 
 .map {
-  width: 100%;
-  height: 100%;
+  width: 375pt;
+  height: 812pt;
+  position: absolute;
+}
+
+.map_1{
+  width: 344pt;
+  height: 221pt;
+  background-color: #ffffff;
+  border: 1pt solid #ffffff;
+  padding: 10pt;
+  border-radius:11pt;
+  position: absolute;
+  top: 550pt;
+  left: 5pt;
+  z-index: 20;
+  box-shadow: 0pt 0pt 9pt #00000057;
+}
+.top{
+  display: flexbox;
+  
+}
+#image0{
+  margin-left: pt;
+  width:40pt;
+  height: 40pt;
+  z-index: 20;
+  position: absolute;
+  margin-top: 15pt;
+  margin-left: 10pt;
+}
+
+.topbar{
+  width: ;
+  height: ;
+  background-color: #ffffff;
+  border: 1pt solid #ffffff;
+  padding: 5pt;
+  border-radius:7pt;
+  position: absolute;
+  top: 10pt;
+  left: 5pt;
+  z-index: 2;
+  box-shadow: 1pt 1pt 3pt #00000069;
+  font: 12pt black ;
+  margin-left: 50pt;
+  margin-top: 15pt;
+}
+.topbar1{
+  width: ;
+  height: ;
+  background-color: #ffffff;
+  border: 1pt solid #ffffff;
+  padding: 5pt;
+  border-radius:7pt;
+  position: absolute;
+  top: 10pt;
+  left: 5pt;
+  z-index: 2;
+  box-shadow: 1pt 1pt 3pt #00000069;
+  font: 12pt black ;
+  margin-left:160pt;
+  margin-top: 15pt;
+}
+.topbar2{
+  width: ;
+  height: ;
+  background-color: #ffffff;
+  border: 1pt solid #ffffff;
+  padding: 5pt;
+  border-radius:7pt;
+  position: absolute;
+  top: 10pt;
+  left: 5pt;
+  z-index: 2;
+  box-shadow: 1pt 1pt 3pt #00000069;
+  font: 12pt black ;
+  margin-left:265pt;
+  margin-top: 15pt;
+}
+
+
+#radius1{
+  display: flex;
+  justify-content: center;
+  height: 10pt;
+  width: 80pt;
+  height: 25pt;
+  border-style: none;
+  background-color: #ffffff;
+  border-radius: 7pt;
+  font-size: 12pt;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+}
+.dropdown-content{
+  border-radius: 7pt;
+}
+
+.package{
+  position: relative;
+}
+
+
+.markbox{
+  display: flex;
+  justify-content: center;
+  height: 70pt;
+
+}
+.mark{
+  width: 60pt;
+  height: 60pt;
+  margin-left: 22pt;
+  margin-top: 8pt;
+  margin-right: 12pt;
+
+}
+#imgmap1{
+  width: 50pt;
+  height: 50pt;
+}
+.mark2{
+  width: 274pt;
+  height: 70pt;
+  font-weight: 700;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18pt;
+  margin-top: 7pt;
+}
+#imgmap2{
+  width: 8pt;
+  height: 10pt;
+}
+#btnmap1{
+  width: 28pt;
+  height: 19pt;
+  border-radius: 10pt;
+  border: solid 1pt #FB6E61;
+  background-color: #FFFFFF;
+  color: #FB6E61;
+  margin-left: 100pt;
+  
+}
+#mark2_1{
+  font-size: 13pt;
+  font-weight: 400;
+}
+hr{
+  width: 330pt;
+}
+
+.menubox{
+  margin-left: 30pt;
+  margin-top: 13pt;
+
+
+}
+.menubox1{
+  font-size: 15pt;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 500;
+}
+
+#menubox2{
+  font-size: 15pt;
+  font-weight: 700;
+  color:#959595;
+  margin-top: 8pt;
+}
+.orderbox{
+  border: solid 1pt #ffffff;
+  border-radius: 7pt;
+  width: 319pt;
+  height:40pt;
+  box-shadow: 1pt 1pt 4pt #0000003D;
+  margin-top: 15pt;
+  
+  margin-left: 15pt;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 800;
+  color: #FB6E61;
+  
+}
+#orderbox0{
+  margin-left: 125pt;
+  margin-top: 9pt;
+  display:inline-block;
+  font-size: 19pt;
+  
+}
+#orderbox1{
+  margin-left: 50pt;
+  color: black;
+  font-size: 16pt;
 }

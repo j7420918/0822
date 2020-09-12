@@ -22,7 +22,7 @@ body{
 }
 .item3{
     font-size: 16pt;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
     text-align: center;
     margin-bottom: 4pt;
@@ -30,7 +30,7 @@ body{
 }
 #item3_1{
     font-size: 14pt;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
 }
 .hr1{
@@ -43,11 +43,11 @@ body{
 }
 #item5_1{
     font-size: 14pt;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 #item5_1{
     font-size: 13pt;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .item6{
     font-size: 14pt;
@@ -63,7 +63,7 @@ body{
 #item7_1{
     text-align: center;
     font-size: 18pt;
-    font-family: 나눔고딕;
+    font-family: 'Nanum Gothic', sans-serif;
     padding: 19pt 140pt 10pt 170pt;
     color: #FFFFFF;
     width: 334pt;
